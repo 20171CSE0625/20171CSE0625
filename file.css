@@ -1,0 +1,21 @@
+	body{
+		background-color:green;
+		background-image:url("/home/Sem6B10/Pictures/index.jpeg");
+		background-repeat:repeat-x;
+		background-attachment:fixed;
+		
+	}
+
+	h1{
+		color:maroon;
+		margin-left:40px;
+	}
+	h2{
+		color:red;
+		margin-left:40px;
+	}
+	p{
+		color:blue;
+	}
+
+
