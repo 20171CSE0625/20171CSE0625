@@ -1,21 +1,50 @@
 	body{
-		background-color:green;
+		background-color:white;
 		background-image:url("/home/Sem6B10/Pictures/index.jpeg");
 		background-repeat:repeat-x;
 		background-attachment:fixed;
 		
 	}
+	
+	img{
+		border:3px dashed red;
+		opacity:0.4;
+		filter:alpha(opacity=40);
+	}
 
 	h1{
 		color:maroon;
 		margin-left:40px;
+		font-weight:500;
 	}
+
 	h2{
 		color:red;
 		margin-left:40px;
 	}
-	p{
-		color:blue;
+
+	p.special{	
+		font-family:sans-serif;
+		font-style:italic;
+		color:green;
+		font-size:large;
+		font-weight:bolder;
+		text-shadow:4px 4px 8px red;		
+		text-transform:uppercase;
 	}
 
+	p.normal{		
+		font-family:sans-serif;
+		font-style:italic;
+		color:orange;
+		font-size:large;
+		font-weight:bold;
+		direction:rtl;
+		text-transform:lowercase;
+		letter-spacing:5px;
+		word-spacing:5px;
+		text-indent:2cm;
+		text-shadow:4px 4px 8px green;
+		
+	}
 
