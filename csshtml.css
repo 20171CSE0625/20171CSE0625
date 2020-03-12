@@ -1,4 +1,37 @@
 #id1{
-background-image:repeating-linear-gradient(to top ,rgba(255,0,0,0),rgba(255,0,0,.8));
-height:50px;
+background-image:radial-gradient(circle,red 5%,yellow 15%,green 60%);
+height:100px;
+
+}
+#id2{
+width:100px;
+height:100px;
+background:orange;
+transition:width 2s,height 2s,transform 2s;
+border-radius: 50px;
+}
+#id2:hover{
+width:300px;
+height:300px;
+transform:skew(360deg,360deg);
+}
+#id3{
+ width: 100px;
+  height: 100px;
+  background: purple;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+
+@keyframes mymove {
+from {
+        transform: rotate(0) translateX(0);
+        opacity: 1;
+    }
+    
+    to {
+        transform: rotate(90deg) translateX(200px);
+        opacity: 0;
+    }
 }
